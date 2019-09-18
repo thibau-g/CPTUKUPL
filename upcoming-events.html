@@ -6,44 +6,79 @@
   <body>
     
     <style>
+      
+      body {
+        background: rgb(226, 240, 217);
+        background: linear-gradient(rgba(226, 240, 217, 1) 0%, rgba(229, 244, 250, 1) 25%, rgba(229, 244, 250, 1) 100%);
+      }
+      
       #top {
         color: green;
         font-family: "Din", sans-serif;
         text-align: center;
         padding-left: 10px;
+        font-size: 10;
       }
       .topcell {
-        padding: 50px;
+        padding: 20px;
       }
-      body, #top {
-        background: linear-gradient(to bottom, #e2f0d9 0%, #e5f4fa 100%);
+      #first {
+        font-family: DINweb, sans-serif;
       }
       
+      #toprow{
+        font-size: 20px;
+        text-align: center;
+        font-family: "Din", sans-serif;
+        font-weight: bold;
+        
+      }
+      
+      #rows {
+        font-size: 14px;
+        text-align: center;
+        font-family: "Din", sans-serif;
+      }
+
     </style>
-    
-    <div id="top">
-      <table width="100%">
-        <tr>
-          <td>
-            <a href="index.html"><img src="cpt.png" width="500px"></a>
+
+  
+      <table border="0" width="100%">
+        
+        <tr id="top">
+          <td rowspan="2">
+            <a href="index.html"><img src="CPT1.png" height="100px"></a>
           </td>
           <td>
-            <a href="league-tables.html"><h4 class="topcell">University League Tables</h4></a>
+            <a href="league-tables.html"><img src="ult.png" height="50px"></a>
           </td>
           <td>
-            <a href="upcoming-events.html"><h4 class="topcell">Upcoming Events</h4></a>
+            <a href="upcoming-events.html"><img src="ue.png" height="50px"></a>
           </td>
           <td>
-            <a href="register-your-uni.html"><h4 class="topcell">Register Your Uni</h4></a>
+            <a href="register-your-uni.html"><img src="ryu.png" height="50px"></a>
           </td>
           <td>
-            <a href="contact-us.html"><h4 class="topcell">Contact Us</h4></a>
+            <a href="contact-us.html"><img src="cu.png" height="50px"></a>
           </td>
         </tr>
-      </table>
-      <p> Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>
-          Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>
-Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>Test </br>Test </br> </p>
-    </div>
 
+        <tr id="first">
+          <td colspan="5">
+            <p style="font-size: 18px; color: green; text-align: center;">See What's Going On!</p>
+          </td>
+        </tr>
+        
+        <tr id="first">
+          <td colspan="5">
+            <p>Bignana <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br>
+        Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br>
+        Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br>
+        Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> Test <br> </p>
+          </td>
+        </tr>
+
+      </table>
+    
+  </body>
 </html>
